@@ -1,0 +1,6 @@
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Entidades\bin\Debug\SistemaVentas.Entidades.dll
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Entidades\bin\Debug\SistemaVentas.Entidades.pdb
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Entidades\obj\Debug\SistemaVentas.Entidades.csprojAssemblyReference.cache
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Entidades\obj\Debug\SistemaVentas.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Entidades\obj\Debug\SistemaVentas.Entidades.dll
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Entidades\obj\Debug\SistemaVentas.Entidades.pdb
