@@ -33,8 +33,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BarcodeStandard, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.2.4.0\lib\netstandard2.0\BarcodeStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.5.0.2\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.5.0.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.5.0.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +80,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FRMArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMArticulo.Designer.cs">
+      <DependentUpon>FRMArticulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRMCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FRMCategoria.Designer.cs">
       <DependentUpon>FRMCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMLogin.Designer.cs">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="FRMPrincipal.cs">
       <SubType>Form</SubType>
@@ -58,13 +104,55 @@
     <Compile Include="FRMPrincipal.Designer.cs">
       <DependentUpon>FRMPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRMCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMCliente.Designer.cs">
+      <DependentUpon>FRMCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMProveedor.Designer.cs">
+      <DependentUpon>FRMProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMRol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMRol.Designer.cs">
+      <DependentUpon>FRMRol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMUsuario.Designer.cs">
+      <DependentUpon>FRMUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FRMArticulo.resx">
+      <DependentUpon>FRMArticulo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRMCategoria.resx">
       <DependentUpon>FRMCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FRMLogin.resx">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRMPrincipal.resx">
       <DependentUpon>FRMPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMCliente.resx">
+      <DependentUpon>FRMCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMProveedor.resx">
+      <DependentUpon>FRMProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMRol.resx">
+      <DependentUpon>FRMRol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMUsuario.resx">
+      <DependentUpon>FRMUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +164,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

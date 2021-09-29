@@ -24,6 +24,13 @@ namespace SistemaVentas.Negocio
             return datos.Buscar(valor);
         }
 
+        public static DataTable Seleccionar()  //static para no instanciar en otras clase, solamente en esta clase
+        {
+            DCategoria datos = new DCategoria(); // se instancia cuando llamas a una clase
+            return datos.Seleccionar();
+        }
+
+
         public static string Insertar(string nombre,string descripcion)
         {
             DCategoria datos = new DCategoria(); // se instancia cuando llamas a una clase

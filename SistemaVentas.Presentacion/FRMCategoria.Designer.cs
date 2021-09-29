@@ -32,6 +32,10 @@ namespace SistemaVentas.Presentacion
             this.components = new System.ComponentModel.Container();
             this.TabGeneral = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnDesactivar = new System.Windows.Forms.Button();
+            this.btnActivar = new System.Windows.Forms.Button();
+            this.chkSeleccionar = new System.Windows.Forms.CheckBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.lblTotal = new System.Windows.Forms.Label();
@@ -48,10 +52,6 @@ namespace SistemaVentas.Presentacion
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.ErrorIcono = new System.Windows.Forms.ErrorProvider(this.components);
-            this.chkSeleccionar = new System.Windows.Forms.CheckBox();
-            this.btnActivar = new System.Windows.Forms.Button();
-            this.btnDesactivar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
             this.TabGeneral.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).BeginInit();
@@ -88,6 +88,47 @@ namespace SistemaVentas.Presentacion
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listado";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(438, 383);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
+            this.btnEliminar.TabIndex = 7;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnDesactivar
+            // 
+            this.btnDesactivar.Location = new System.Drawing.Point(327, 383);
+            this.btnDesactivar.Name = "btnDesactivar";
+            this.btnDesactivar.Size = new System.Drawing.Size(89, 23);
+            this.btnDesactivar.TabIndex = 6;
+            this.btnDesactivar.Text = "Desactivar";
+            this.btnDesactivar.UseVisualStyleBackColor = true;
+            this.btnDesactivar.Click += new System.EventHandler(this.btnDesactivar_Click);
+            // 
+            // btnActivar
+            // 
+            this.btnActivar.Location = new System.Drawing.Point(220, 383);
+            this.btnActivar.Name = "btnActivar";
+            this.btnActivar.Size = new System.Drawing.Size(86, 23);
+            this.btnActivar.TabIndex = 5;
+            this.btnActivar.Text = "Activar";
+            this.btnActivar.UseVisualStyleBackColor = true;
+            this.btnActivar.Click += new System.EventHandler(this.btnActivar_Click);
+            // 
+            // chkSeleccionar
+            // 
+            this.chkSeleccionar.AutoSize = true;
+            this.chkSeleccionar.Location = new System.Drawing.Point(23, 378);
+            this.chkSeleccionar.Name = "chkSeleccionar";
+            this.chkSeleccionar.Size = new System.Drawing.Size(82, 17);
+            this.chkSeleccionar.TabIndex = 4;
+            this.chkSeleccionar.Text = "Seleccionar";
+            this.chkSeleccionar.UseVisualStyleBackColor = true;
+            this.chkSeleccionar.CheckedChanged += new System.EventHandler(this.chkSeleccionar_CheckedChanged);
             // 
             // btnBuscar
             // 
@@ -149,6 +190,7 @@ namespace SistemaVentas.Presentacion
             this.tabPage2.Controls.Add(this.txtNombre);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -172,7 +214,7 @@ namespace SistemaVentas.Presentacion
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(182, 296);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(206, 13);
+            this.label3.Size = new System.Drawing.Size(169, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "(*) indica que el dato es obligatorio";
             // 
@@ -224,7 +266,7 @@ namespace SistemaVentas.Presentacion
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(72, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 13);
+            this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Descripcion";
             // 
@@ -233,54 +275,13 @@ namespace SistemaVentas.Presentacion
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(70, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre(*)";
             // 
             // ErrorIcono
             // 
             this.ErrorIcono.ContainerControl = this;
-            // 
-            // chkSeleccionar
-            // 
-            this.chkSeleccionar.AutoSize = true;
-            this.chkSeleccionar.Location = new System.Drawing.Point(23, 378);
-            this.chkSeleccionar.Name = "chkSeleccionar";
-            this.chkSeleccionar.Size = new System.Drawing.Size(82, 17);
-            this.chkSeleccionar.TabIndex = 4;
-            this.chkSeleccionar.Text = "Seleccionar";
-            this.chkSeleccionar.UseVisualStyleBackColor = true;
-            this.chkSeleccionar.CheckedChanged += new System.EventHandler(this.chkSeleccionar_CheckedChanged);
-            // 
-            // btnActivar
-            // 
-            this.btnActivar.Location = new System.Drawing.Point(220, 383);
-            this.btnActivar.Name = "btnActivar";
-            this.btnActivar.Size = new System.Drawing.Size(86, 23);
-            this.btnActivar.TabIndex = 5;
-            this.btnActivar.Text = "Activar";
-            this.btnActivar.UseVisualStyleBackColor = true;
-            this.btnActivar.Click += new System.EventHandler(this.btnActivar_Click);
-            // 
-            // btnDesactivar
-            // 
-            this.btnDesactivar.Location = new System.Drawing.Point(327, 383);
-            this.btnDesactivar.Name = "btnDesactivar";
-            this.btnDesactivar.Size = new System.Drawing.Size(89, 23);
-            this.btnDesactivar.TabIndex = 6;
-            this.btnDesactivar.Text = "Desactivar";
-            this.btnDesactivar.UseVisualStyleBackColor = true;
-            this.btnDesactivar.Click += new System.EventHandler(this.btnDesactivar_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(438, 383);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
-            this.btnEliminar.TabIndex = 7;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // FRMCategoria
             // 

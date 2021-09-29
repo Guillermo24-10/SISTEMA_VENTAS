@@ -13,6 +13,11 @@ namespace SistemaVentas.Presentacion
     public partial class FRMPrincipal : Form
     {
         private int childFormNumber = 0;
+        public int idusuario;
+        public int idrol;
+        public string nombre;
+        public string rol;
+        public bool estado;
 
         public FRMPrincipal()
         {
@@ -106,12 +111,117 @@ namespace SistemaVentas.Presentacion
 
         private void rolesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FRMRol frm = new FRMRol();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FRMCategoria frm = new FRMCategoria();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void articulosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMArticulo frm = new FRMArticulo();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToLongTimeString();
+            lblFecha.Text= DateTime.Now.ToLongDateString();
+        }
+
+        private void FRMPrincipal_Load(object sender, EventArgs e)
+        {
+            stBarraInferior.Text = "Desarrollado por soporte01@jdm.com.pe";
+            stBarraInfRight.Text = "Usuario: " + this.nombre;
+            MessageBox.Show("Bienvenido: " + this.nombre, "Sistema de Ventas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            if (this.rol.Equals("Administrador"))
+            {
+                mnuAlmacen.Enabled = true;
+                mnuIngresos.Enabled = true;
+                mnuAccesos.Enabled = true;
+                mnuVentas.Enabled = true;
+                mnuConsultas.Enabled = true;
+                tsCompras.Enabled = true;
+                tsVentas.Enabled = true;
+            }
+            else
+            {
+                if (this.rol.Equals("Vendedor"))
+                {
+                    mnuAlmacen.Enabled = false;
+                    mnuIngresos.Enabled = false;
+                    mnuAccesos.Enabled = false;
+                    mnuVentas.Enabled = true;
+                    mnuConsultas.Enabled = true;
+                    tsCompras.Enabled = false;
+                    tsVentas.Enabled = true;
+                }
+                else
+                {
+                    if (this.rol.Equals("Almacenero"))
+                    {
+                        mnuAlmacen.Enabled = true;
+                        mnuIngresos.Enabled = true;
+                        mnuAccesos.Enabled = false;
+                        mnuVentas.Enabled = false;
+                        mnuConsultas.Enabled = true;
+                        tsCompras.Enabled = true;
+                        tsVentas.Enabled = false;
+                    }
+                    else
+                    {
+                        mnuAlmacen.Enabled = false;
+                        mnuIngresos.Enabled = false;
+                        mnuAccesos.Enabled = false;
+                        mnuVentas.Enabled = false;
+                        mnuConsultas.Enabled = false;
+                        tsCompras.Enabled = false;
+                        tsVentas.Enabled = false;
+                    }
+                }
+            }
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMUsuario frm = new FRMUsuario();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void FRMPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult opcion;
+            opcion = MessageBox.Show("Deseas salir del Sistema?", "Sistema de Ventas", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (opcion == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMProveedor frm = new FRMProveedor();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMCliente frm = new FRMCliente();
             frm.MdiParent = this;
             frm.Show();
         }
