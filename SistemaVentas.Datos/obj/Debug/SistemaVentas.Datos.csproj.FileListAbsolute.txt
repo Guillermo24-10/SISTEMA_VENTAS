@@ -8,3 +8,13 @@ C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\S
 C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.csproj.CopyComplete
 C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.dll
 C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\bin\Debug\SistemaVentas.Datos.dll.config
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\bin\Debug\SistemaVentas.Datos.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\bin\Debug\SistemaVentas.Datos.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\bin\Debug\SistemaVentas.Entidades.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\bin\Debug\SistemaVentas.Entidades.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.csprojAssemblyReference.cache
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.csproj.CoreCompileInputs.cache
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.csproj.CopyComplete
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Datos\obj\Debug\SistemaVentas.Datos.pdb

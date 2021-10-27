@@ -43,3 +43,52 @@ C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\S
 C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMLogin.resources
 C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMProveedor.resources
 C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMCliente.resources
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMIngreso.resources
+C:\Users\acuar\OneDrive\Escritorio\SISTEMAS_C#_.NET\SISTEMA_COMPRAS_ESCRITORIO\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMVista_ProveedorIngreso.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Presentacion.exe.config
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Presentacion.exe
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Presentacion.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\BarcodeStandard.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Negocio.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Buffers.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Drawing.Common.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Memory.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Text.Json.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.ValueTuple.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Datos.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Entidades.dll
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Negocio.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Buffers.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Memory.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Text.Json.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\System.ValueTuple.xml
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Datos.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Datos.dll.config
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\bin\Debug\SistemaVentas.Entidades.pdb
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.csprojAssemblyReference.cache
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMArticulo.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMCategoria.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMIngreso.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMLogin.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMPrincipal.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMCliente.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMProveedor.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMRol.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMUsuario.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.FRMVista_ProveedorIngreso.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.Properties.Resources.resources
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.csproj.GenerateResource.cache
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.csproj.CopyComplete
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.exe
+C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Presentacion\obj\Debug\SistemaVentas.Presentacion.pdb

@@ -225,5 +225,12 @@ namespace SistemaVentas.Presentacion
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMIngreso frm = new FRMIngreso();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

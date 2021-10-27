@@ -92,6 +92,12 @@
     <Compile Include="FRMCategoria.Designer.cs">
       <DependentUpon>FRMCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRMIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMIngreso.Designer.cs">
+      <DependentUpon>FRMIngreso.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRMLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,13 +134,23 @@
     <Compile Include="FRMUsuario.Designer.cs">
       <DependentUpon>FRMUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRMVista_ProveedorIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMVista_ProveedorIngreso.Designer.cs">
+      <DependentUpon>FRMVista_ProveedorIngreso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Variables.cs" />
     <EmbeddedResource Include="FRMArticulo.resx">
       <DependentUpon>FRMArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMCategoria.resx">
       <DependentUpon>FRMCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMIngreso.resx">
+      <DependentUpon>FRMIngreso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMLogin.resx">
       <DependentUpon>FRMLogin.cs</DependentUpon>
@@ -153,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FRMUsuario.resx">
       <DependentUpon>FRMUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMVista_ProveedorIngreso.resx">
+      <DependentUpon>FRMVista_ProveedorIngreso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

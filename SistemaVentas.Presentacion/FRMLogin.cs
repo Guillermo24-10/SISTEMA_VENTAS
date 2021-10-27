@@ -42,6 +42,7 @@ namespace SistemaVentas.Presentacion
                     else
                     {
                         FRMPrincipal frm = new FRMPrincipal();
+                        Variables.IdUsuario= Convert.ToInt32(tabla.Rows[0][0]);
                         frm.idusuario =Convert.ToInt32(tabla.Rows[0][0]);
                         frm.idrol = Convert.ToInt32(tabla.Rows[0][1]);
                         frm.rol = Convert.ToString(tabla.Rows[0][2]);
