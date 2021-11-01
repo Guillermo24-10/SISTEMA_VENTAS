@@ -21,11 +21,21 @@ namespace SistemaVentas.Negocio
             DArticulos datos = new DArticulos(); // se instancia cuando llamas a una clase           
             return datos.Buscar(valor);
         }
+        public static DataTable BuscarVenta(string valor)
+        {
+            DArticulos datos = new DArticulos(); // se instancia cuando llamas a una clase           
+            return datos.BuscarVenta(valor);
+        }
 
         public static DataTable BuscarCodigo(string valor)
         {
             DArticulos datos = new DArticulos(); // se instancia cuando llamas a una clase           
             return datos.BuscarCodigo(valor);
+        }
+        public static DataTable BuscarCodigoVenta(string valor)
+        {
+            DArticulos datos = new DArticulos(); // se instancia cuando llamas a una clase           
+            return datos.BuscarCodigoVenta(valor);
         }
         public static string Insertar(int idcategoria,string codigo,string nombre,decimal precio_venta,int stock,string descripcion,string imagen)
         {

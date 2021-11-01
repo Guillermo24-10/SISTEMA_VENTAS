@@ -134,6 +134,18 @@
     <Compile Include="FRMUsuario.Designer.cs">
       <DependentUpon>FRMUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRMVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMVenta.Designer.cs">
+      <DependentUpon>FRMVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMVista_ClienteVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMVista_ClienteVenta.Designer.cs">
+      <DependentUpon>FRMVista_ClienteVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRMVista_ProveedorIngreso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +181,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FRMUsuario.resx">
       <DependentUpon>FRMUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMVenta.resx">
+      <DependentUpon>FRMVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMVista_ClienteVenta.resx">
+      <DependentUpon>FRMVista_ClienteVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMVista_ProveedorIngreso.resx">
       <DependentUpon>FRMVista_ProveedorIngreso.cs</DependentUpon>

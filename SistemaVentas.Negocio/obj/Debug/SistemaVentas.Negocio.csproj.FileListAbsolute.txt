@@ -22,3 +22,15 @@ C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVe
 C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.csproj.CopyComplete
 C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.dll
 C:\Users\acuar\OneDrive\Escritorio\C#.NET FRAMEWORK\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.pdb
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Negocio.dll
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Negocio.pdb
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Datos.dll
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Entidades.dll
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Datos.pdb
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Datos.dll.config
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\bin\Debug\SistemaVentas.Entidades.pdb
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.csprojAssemblyReference.cache
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.csproj.CopyComplete
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.dll
+C:\Users\acuar\OneDrive\Escritorio\Proyect_Visual\SISTEMA_COMPRAS_C#\SistemaVenta\SistemaVentas.Negocio\obj\Debug\SistemaVentas.Negocio.pdb
